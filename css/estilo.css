@@ -1,0 +1,11 @@
+.titulo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.menu_box_list li a.document{
+	background-image:url(../images/document.png);
+	background-repeat:no-repeat;
+    background-position:12px  6px;
+}
