@@ -9,3 +9,14 @@
 	background-repeat:no-repeat;
     background-position:12px  6px;
 }
+
+#menuOpcao{
+    display: none;
+    padding-top: 0;
+}
+
+#resultado {
+    display: none;
+    padding-top: 35px;
+    color: white;
+}
