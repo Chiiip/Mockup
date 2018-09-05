@@ -35,7 +35,7 @@ function calcularCustas() {
             texto = 'As taxas a pagar são de R$ 5.093,54';
         } else {
             const taxa = (0.025 * valor > 38634.54) ? 38634.54 : 0.025 * valor;
-            texto = 'As taxas a pagar são de R$ ' + taxa;
+            texto = 'As taxas a pagar são de R$ ' + taxa.toFixed(2).replace('.', ',');
         }
 
         document.querySelector("#resultado").innerHTML = texto;
