@@ -1,0 +1,9 @@
+{
+    "name": "Calculadora Judicial",
+    "short_name": "CalcJud",
+    "theme_color": "#170800",
+    "background_color": "#170800",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }

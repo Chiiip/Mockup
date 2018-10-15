@@ -33,7 +33,6 @@ function calcularCustas() {
     if (valor != null && valor != '' && valor != 'Informe o valor da causa (R$)') {
         document.querySelector('#resultado').classList.remove('hidden-menu');
         const texto = taxasAPagar + calcularPorSecao(valor);
-
         document.querySelector("#resultado").innerHTML = texto;
     }
 }
